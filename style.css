@@ -1,0 +1,33 @@
+body
+{
+    background-image: url("background.jpg");
+}
+
+canvas
+{
+    border: dashed black 3px;
+    animation-name: cool_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1
+{
+    width: 100%;
+    font-size: 25px !important;
+}
+
+.btn-warning:hover
+{ background-color: blueviolet;}
+
+@keyframes cool_color
+{
+    from
+    {
+        box-shadow: 1px 1px 30px rgb(0, 162, 255);
+    }
+    to
+    {
+        box-shadow: 1px 1px 30px rgb(156, 0, 173);
+    }
+}
